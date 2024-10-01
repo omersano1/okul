@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    fieldset
+    {
+      width: 15%;
+    }
+  </style>
+</head>
+<body>
+  <form action="#">
+    <fieldset>
+      <legend>Kişisel Bilgiler</legend>
+      <label>Ad</label><br>
+      <input name="ad" type="text" placeholder="Adınız"><br>
+      <label>Soyad</label><br>
+      <input name="soyad" type="text" placeholder="Soyadınız"><br>
+      <label>Cinsiyet</label><br>
+      <input name="cns" type="radio">Erkek
+      <input name="cns" type="radio">Kız
+      <br>
+      <label>Hobiler</label><br>
+      <input type="checkbox" value="Kitap">Kitap
+      <input type="checkbox" value="Müzik">Müzik
+      <input type="checkbox" value="Spor">Spor
+      <br>
+      
+    </fieldset>
+    <fieldset>
+      <legend>Diğer Bilgiler</legend>
+      <label>İl</label>
+      <select name="d-yeri" size="1">
+        <option value="0">---Şehir Seçiniz---</option>
+        <option value="34">İstanbul</option>
+        <option value="35">İzmir</option>
+        <option value="36">Kars</option>
+        <option value="37">Kastamonu</option>
+      </select>
+      <br>
+      <label>İlçe</label>
+      <input type="text"><br>
+      <textarea name=""cols="20" rows="5" placeholder="Benim Hakkımda"></textarea><br><br>
+      <input name="giris" type="submit" value="Giriş">
+      <input name="temizle" type="reset" value="Temizle">
+      <input name="uyari" type="submit" onclick="Uyarı()" value="Uyarı">
+      
+
+    </fieldset>
+  </form>
+  <script>
+    Uyarı()
+    {
+      alert("Uyarı!!!");
+    }
+  </script>
+</body>
+</html>

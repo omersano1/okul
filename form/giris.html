@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <title>Giriş Bilgileri</title>
+</head>
+<body>
+    <h1>Giriş Bilgileri</h1>
+    <p>Ad: <span id="ad"></span></p>
+    <p>Soyad: <span id="soyad"></span></p>
+    <p>Yaş: <span id="yas"></span></p>
+    <p>E-Posta: <span id="email"></span></p>
+    <p>Cinsiyet: <span id="cinsiyet"></span></p>
+    <p>Doğum Tarihi: <span id="date1"></span></p>
+    <p>Doğum Saati: <span id="d-saat"></span></p>
+    <p>Doğum Yeri: <span id="d-yeri"></span></p>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById('ad').innerText = params.get('ad');
+        document.getElementById('soyad').innerText = params.get('soyad');
+        document.getElementById('yas').innerText = params.get('yas');
+        document.getElementById('email').innerText = params.get('email');
+        document.getElementById('cinsiyet').innerText = params.get('cinsiyet');
+        document.getElementById('date1').innerText = params.get('date1');
+        document.getElementById('d-saat').innerText = params.get('d-saat');
+        document.getElementById('d-yeri').innerText = params.get('d-yeri');
+    </script>
+</body>
+</html>

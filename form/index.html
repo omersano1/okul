@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form - 1.10.2024</title>
+  <style>
+    body
+    {
+      background-color: black;
+      color: white;
+      margin-top: 0px;
+
+    }
+    form
+    {
+      margin: 5px;
+    }
+    fieldset
+    {
+      width: 30%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Merhaba Kullanıcı</h1>
+  <form method="get" action="giris.html" name="giris">
+    <fieldset>
+      <fieldset>
+        <legend>Giriş</legend>
+        <label>Ad: </label><input name="ad" type="text" placeholder="Adınızı Giriniz"/><br>
+        <label>Soyad: </label><input name="soyad" type="text" placeholder="Soyadınızı Giriniz"/><br>
+        <input type="radio" value="erkek" name="cinsiyet"/>Erkek
+        <input type="radio" value="kiz" name="cinsiyet"/>Kız
+        <br>
+        <label>Doğum Tarihi</label>
+        <input name="date1" type="date">
+        <br>
+        <label>Doğum Saati</label><br><input name="d-saat" type="time">
+        <br>
+        <label>E-Posta</label><br>
+        <input name="email" type="email">
+        <label>Yaş</label><br>
+        <input name="yas" type="number" min="15" max="50"><br>
+        <select name="d-yeri" size="1">
+          <option value="0">---Şehir Seçiniz---</option>
+          <option value="34">İstanbul</option>
+          <option value="35">İzmir</option>
+          <option value="36">Kars</option>
+          <option value="37">Kastamonu</option>
+        </select>
+        <input type="reset" value="Temizle">
+        <br>
+        <input type="submit"value="Giriş">
+      </fieldset>
+    <br>  
+      <fieldset>
+        <legend>Giriş Yap</legend>
+        <label>Kullanıcı Adı: </label><input type="text" placeholder="Kullanıcı Adı Giriniz"/><br>
+        <label>Şifre: </label><input type="password" placeholder="Şifre Giriniz"><br>
+        <input type="submit" value="Giriş Yap">
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Hobileriniz</legend>
+      <input type="checkbox" name="futbol">Futbol <br>
+      <input type="checkbox" name="basketbol">Basketbol
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Sevdigin Renk</legend>
+      <input type="color"name="renk">
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Kendinizi Tanıtın</legend>
+      <textarea name="tanitim" rows="5" cols="20"></textarea>
+    </fieldset>
+    <fieldset>
+      <legend>IMTR</legend>
+      <label>films</label>
+
+    </fieldset>
+    </fieldset>
+    
+  </form>
+</body>
+</html>
