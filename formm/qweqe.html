@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form name="giriş " action="giriş.html"
+  method="get" autocomplete="on">
+  <fieldset>
+  <legend>kişisel bilgileri</legend>
+  <label >ad:</label> <input type="text"input type="text" placeholder="adınızı giriniz"/><br>
+  <label >ad soyad:</label> <input type="text"input type="text" placeholder="soyadınıuzı giriniz"/><br>
+  <label >cinsiyet</label><input type="radio" name="cinsiyet"/>erkek
+  <input type="radio" name="cinsiyet"/>kız
+  <br>
+  <label >dogum atrihi</label>
+  <input type="date"/><br>
+  <label >dogum saati</label>
+  <input type="time"/><br>
+  <label >eposta</label>
+  <input type="email"/><br>
+  <label >telefon</label>
+  <input type="tel"><br>
+  <label >tyas</label>
+  <input type="number" min="15" max="130"><br>
+  <label >dogum yeri</label>
+  <select name="iller" size="1">
+  <option value="05">amasya</option>
+  <option value="06">ankara</option>
+  <option value="35">izmir</option>
+  <option value="60">tokat</option>
+  </select>
+  </fieldset>
+  <fieldset>
+  <legend>uyelik bilgiler</legend>
+  <label >kullanıcı adı</label>
+  <input type="text" placeholder="kullanıcı adınız giriniz"><br>
+  <label >sifre</label> <input type="password"
+  placeholder="sifrenizi giriniz"><br>
+
+  </fieldset>
+  <fieldset>
+    <legend>ilgi alanı</legend>
+    <label >hobileriniz</label>
+    <input type="checkbox" name="k1">basketbol
+    <input type="checkbox" name="k2">futbol
+    <input type="checkbox" name="k3">tiyatro <br>
+    <input type="checkbox" name="k4">kitap okuma
+    <input type="checkbox" name="k5">yuzme
+    <input type="checkbox" name="k6">yuruyus
+    <input type="checkbox" name="k7">diger
+    <br>
+    <label >gezmek ıstediginz sehirler</label><br>
+    <select name="iller" multiple > 
+      <option value="05">amasya</option>
+      <option value="06">ankara</option>
+      <option value="35">izmir</option>
+      <option value="60">tokat</option>
+      <option value="31">amazon ormanları</option>
+      </select> 
+      <br>
+    <label >sevdıgınz renk</label><br>
+    <input type="color" name="renk">
+    <label>kendinizi tanıtın</label><br>
+    <textarea  cols="30" rows="10"></textarea>
+    <br>
+    <label >film oylaması</label><br>
+    <label >transformers</label>
+    <meter min="0" low="40" high="90" max="100" value="70"></meter>70 <br>
+    <label >sipiderman</label>
+    <progress  max="100" value="70"></progress>70 <br/>
+    </fieldset>
+  
+
+  <button type="submit">gonder</button>
+  <button type="reset">sıl</button>
+  </form>
+</body>
+</html>
