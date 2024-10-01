@@ -6,10 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>İş Başvuru</title>
   <style>
-    fieldset
-    {
-      width: 15%;
-    }
+
   </style>
 </head>
 <body>
@@ -56,14 +53,44 @@
     </fieldset>
     <fieldset>
       <legend>Kariyer Bilgileri</legend>
-      <label for="">Başvurduğunuz Birim</label><br>
+      <label>Başvurduğunuz Birim</label><br>
       <input type="text" placeholder="Satış / Pazarlama"/>
+      <br>
+      <br>
+      <label>İş Tecrübesi</label>
+      <br>
+      <input type="number"/>yıl
+      <br>
+      <br>
+      <label>Yabancı Dil Seviyesi</label><br>
+      <input type="range">
     </fieldset>
+    <fieldset>
+      <legend>Diğer Bilgiler</legend>
+      <br>
+      <label>Hobiler</label><br>
+      <input type="checkbox" value="Kitap">Kitap
+      <input type="checkbox" value="Müzik">Müzik
+      <input type="checkbox" value="Spor">Spor
+      <br><br>
+      <label>Favori Renk</label><br>
+      <input type="color"name="renk"><br><br>
+      <label>Fotoğraf Yükle</label><br>
+      <input type="file" name="foto"/><br>
+    </fieldset>
+    <br>
+    <input name="giris" type="submit" onclick="Ac()" value="Okudum Anladım">
+    <input name="temizle" type="submit" value="Tamam" disabled="on">
+    <input name="uyari" type="reset" onclick="Uyarı()" value="Temizle">
   </form>
   <script>
+    function Ac()
+    {
+
+    }
     function Uyarı()
     {
-      alert("Uyarı!!!");
+      alert("Temizlendi!!!");
     }
   </script>
 </body>
