@@ -7,7 +7,9 @@
   <title>Kayıt</title>
 </head>
 <body>
-  <h1>Kayıt Formu</h1><br>
+  <form type="get" action="#">
+    <fieldset>
+      <h1>Kayıt Formu</h1><br>
   <label>E-Posta: </label>
   <input type="email" name="email"><br>
   <label>Şifre: </label>
@@ -25,8 +27,20 @@
 <button><img src="soru.png" weight="20" height="20">Kuralları Okudum Onaylıyorum</button>
 <br>
 <br>
-<button><img src="tamam.png" weight="100" height="100"></button>
+<button onclick="asd()"><img src="tamam.png" weight="100" height="100"></button>
 <button><img src="iptal.png" weight="100" height="100"></button>
+<br>
+<br>
+<input type="file" name="foto"/>
+
+</fieldset>
+  </form>
+<script>
+  function asd()
+  {
+    document.getElementById('email').disabled = true;
+  }
+</script>
 
 
 </body>
