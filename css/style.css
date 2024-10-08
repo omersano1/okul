@@ -1,0 +1,47 @@
+.blyat
+{
+
+  color: yellow;
+background-color: brown;
+}
+.asd1
+{
+  margin-top: 50px;
+  color: wheat;
+  background-image:linear-gradient(green,yellow);
+}
+
+body
+{
+
+  background-repeat: no-repeat;
+
+  background-image:url('Rammus_5.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.asd2
+{
+  opacity: 0.5;
+  margin-top: 50px;
+  color: wheat;
+  background-color:rgb(4, 82, 82);
+}
+.devkutu
+{
+  width:auto;
+  height: 50vh;
+  background-color: blue;
+  background:url('istanbul.jpg') left top no-repeat ,url('besiktas.jpg') right bottom no-repeat, green;
+}
+.kutu5
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5em;
+  background-color: green;
+  font-style: oblique;
+  font-weight: bolder;
+  color: darkmagenta;
+  text-decoration: underline;
+  
+}
