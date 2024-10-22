@@ -1,0 +1,60 @@
+div{
+  height: 15vw;
+ border: 0.5vw solid black; 
+ flex-grow: 1;
+ margin: 1px  ;
+ color: wheat
+}
+
+
+.k1{
+  background-color: darkred;
+  border-bottom-color: gray;
+  
+}
+
+.k2{
+ background-image: url("dfd/sddgdszgdzf.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-left-color: aliceblue;
+}
+
+.k3{
+ background-image: url("dfd/gjvgjhvchjcvk.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 5px;
+}
+
+.k4{
+  background-image: url("dfd/fsdfhsfd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ border-style: dotted;
+}
+
+.k5{
+  background-image: url("dfd/aaaa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-style: hidden;
+  flex-grow:3;
+}
+.k6{
+ background-image: url("dfd/bjkdgbjd.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-top-style:groove ;
+}
+
+.k7{
+ background-image: url("dfd/at.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-right: 10px dashed navy;
+ 
+
+
+}
+.spec{ display:flex;}
