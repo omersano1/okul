@@ -1,0 +1,64 @@
+body
+{
+  margin: 0;
+  
+}
+.en-ust
+{
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding-right: 10px;
+  display: flex;
+  width: 100%;
+  z-index: 0;
+  height: 50px;
+  background-color:lightsalmon;
+}
+.logo
+{
+  color: white;
+  margin-left: 10px;
+}
+.en-ust .links a
+{
+  color: white;
+  text-decoration: none;
+
+}
+.en-ust .links p
+{
+  transform:color 0.5s;
+  margin-right: 10px;
+
+}
+.en-ust .links p#hover
+{
+color: black;
+}
+.en-ust .links
+{
+  display: flex;
+  gap: 20px;
+}
+.form
+{
+  margin-top: 0px;
+  padding-left: 10px;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color:darkslategrey;
+  z-index: 1;
+}
+.en-alt
+{
+  z-index: 0;
+  align-items: center;
+  margin-top: 0px;
+  padding-left: 10px;
+  display: flex;
+  width: 100%;
+  height: 75px;
+  background-color:lightsalmon;
+}
